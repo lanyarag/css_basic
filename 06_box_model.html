@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model / margin & padding </title>
+
+</head>
+<style>
+    /* * indicates that styling everything */
+    
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+    .box {
+        background: #ffd4e5;
+        border: 2px  #eecbff solid;
+        font-family: monospace;  
+        width: 500px;  
+
+        /* padding on all sides */
+        padding: 20px;
+
+        /* padding per side */
+        /* padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 20px; */
+
+        /* SHORTCUT → padding shorthand = top, right, bottom, left */
+        padding: 10 px 20px 10px 20px;
+
+        /* SHORTCUT → top/bottom left/right */
+        /* padding: 10px 20px;  */
+
+
+        /* Margin on all sides */
+        margin: 20px;
+
+        /* margin on all sides */
+        margin: 20px;
+
+        /* margin per side */
+        margin-top: 10px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        margin-left: 20px;
+
+        /* SHORTCUT → margin
+         shorthand = top, right, bottom, left */
+        margin
+        : 10 px 20px 10px 20px;
+
+        /* SHORTCUT → top/bottom left/right */
+        margin: 10px 20px; 
+
+        }
+        .box h3 {
+            padding-bottom: 10px;
+    } 
+
+</style>
+<body>
+    <div class="box">
+        <h3>Box one</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui doloribus consequatur aspernatur commodi rerum obcaecati similique aperiam voluptatem, ad sit?</p>
+    </div>
+    
+    <div class="box">
+        <h3>Box two</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui doloribus consequatur aspernatur commodi rerum obcaecati similique aperiam voluptatem, ad sit?</p>
+    </div>
+</body>
+</html>
